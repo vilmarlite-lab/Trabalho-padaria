@@ -1,0 +1,92 @@
+
+#header {
+       display:flex;
+       justify-content: space-around;
+       background: #cbdad5;
+        align-items: center;
+        gap: 1rem;
+       flex-wrap: wrap;
+       padding: .8rem;
+
+}
+#logo {
+    width:150px;
+    height:150px;
+    display: flex;;
+}
+#section {
+    background: #89a7b1;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+}
+#image {
+    width: 400px;
+    height: 400px;
+}
+.linha {
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.produto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imagem-produto {
+    width: 300px;
+    height: 200px;
+
+}
+.texto-produto {
+    font-size: 30px;
+    font-weight: bold;
+}
+#link-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+body {
+    background-color: #a8c6cf;
+}
+.nav-links {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#Contato {
+    background: #cbdad5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 40px;
+    margin-top: 10px; 
+}
